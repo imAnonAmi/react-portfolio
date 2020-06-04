@@ -1,2 +1,2 @@
-# react-portfolio
-Unit 20 React Homework: React Portfolio
+# React Portfolio
+Unit 20 React Homework
