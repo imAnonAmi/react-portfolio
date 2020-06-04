@@ -4,7 +4,7 @@ import Learn from "./Learn";
 
 function Contact(props) {
   return (
-    <div>
+    <div class={{ container: 100 }} style={{padding: 20, paddingTop: 50 }}>
       <h1>Contact Page</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
