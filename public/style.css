@@ -1,0 +1,21 @@
+#footer {
+	position:fixed;
+	left:0px;
+	bottom:5px;
+	height:30px;
+	width:100%;
+	padding: 10px;
+	background:#ffffff;
+}
+	#footer p#name {
+		font-size: 12px; float: left; margin: 0 0 0 5px; color: #b8b6b2;
+	}
+	#footer p#copyright {
+		font-size: 12px; float: right; margin: 0 5px 0 0; color: #b8b6b2;
+	}
+		#footer a {
+		color: #a12121; text-decoration: none;
+	}
+		#footer a:hover {
+			color: #671111;
+		}

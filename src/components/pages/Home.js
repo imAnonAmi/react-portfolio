@@ -14,6 +14,10 @@ function Home() {
         consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
         malesuada fames ac ante ipsum primis in faucibus.
       </p>
+      <div id="footer">
+	<p id="name">Andrew McIntire</p>
+	<p id="copyright">&copy; 2020</p>
+</div>
     </div>
   );
 }

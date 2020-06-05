@@ -1,29 +1,20 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
-import Learn from "./Learn";
 
-function Contact(props) {
+function Contact() {
   return (
     <div class={{ container: 100 }} style={{padding: 20, paddingTop: 50 }}>
-      <h1>Contact Page</h1>
+      <h1>Actually the Contact Page</h1>
       <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-        Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-        pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-        tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec
-        metus vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula.
-        Nam tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora
-        torquent per conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus.
-        Etiam vel condimentum magna, quis tempor nulla.
+        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
+        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
+        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
+        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
+        rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
-      <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link">
-        Learn More
-      </Link>{" "}
-      <Link to="/contact" role="button" className="btn btn-link">
-        Learn Less
-      </Link>
-      <Route exact path={`${props.match.url}/learn`} component={Learn} />
+      <div id="footer">
+	<p id="name">Andrew McIntire</p>
+	<p id="copyright">&copy; 2020</p>
+</div>
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import React from "react";
 
-function Blog() {
+function Project() {
   return (
     <div class={{ container: 100 }} style={{padding: 20, paddingTop: 50 }}>
-      <h1>Blog Page</h1>
+      <h1>Actually the Projects Page</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
         turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
@@ -16,8 +16,12 @@ function Blog() {
         vehicula sit amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus
         non ullamcorper iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
+      <div id="footer">
+	<p id="name">Andrew McIntire</p>
+	<p id="copyright">&copy; 2020</p>
+</div>
     </div>
   );
 }
 
-export default Blog;
+export default Project;
