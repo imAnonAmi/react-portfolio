@@ -5,17 +5,67 @@
 	height:30px;
 	width:100%;
 	padding: 10px;
-	background:#ffffff;
+	/* background:#ffffff; */
 }
 	#footer p#name {
-		font-size: 12px; float: left; margin: 0 0 0 5px; color: #b8b6b2;
+		font-size: 12px; float: left; margin: 0 0 0 5px; color: white;
 	}
 	#footer p#copyright {
-		font-size: 12px; float: right; margin: 0 5px 0 0; color: #b8b6b2;
+		font-size: 12px; float: right; margin: 0 5px 0 0; color: white;
 	}
 		#footer a {
 		color: #a12121; text-decoration: none;
 	}
 		#footer a:hover {
 			color: #671111;
+	};
+
+	.backgroundImage {
+		width: 33%;
+		height: 33%;
+	}
+	.centered {
+		position: absolute;
+		top: 13%;
+		left: 50%;
+		transform: translate(-50%, -13%);
+	  }
+
+	body {
+		background:skyblue;
+	}
+	.container {
+		background-color: ivory;
+	}
+	@media only screen and (max-width: 640px) {
+
+		.rounded {
+			float: none;
+			clear: both;
+			width: 100%;
+			padding-left: 75px;
+			padding-right: 75px;
+			padding-bottom: 10px;
+			padding-top: 5px;
+			
 		}
+		.container-fluid {
+			flex-direction: column;
+			text-align: center;
+		}
+		
+		.navbar-nav {
+			flex-direction: row;
+		}
+		
+	}
+	
+	@media only screen and (max-width: 768px) {
+		.container-fluid {
+			flex-direction: column;
+			text-align: center;
+		}
+		
+		.navbar-nav {
+			flex-direction: row;
+		}}
