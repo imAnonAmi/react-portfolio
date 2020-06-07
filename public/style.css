@@ -37,6 +37,10 @@
 	.container {
 		background-color: ivory;
 	}
+	.rescontainer {
+		background-color: ivory;
+		text-align: center;
+	}
 	@media only screen and (max-width: 640px) {
 
 		.rounded {
@@ -69,3 +73,5 @@
 		.navbar-nav {
 			flex-direction: row;
 		}}
+
+	
