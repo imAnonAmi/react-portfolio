@@ -1,20 +1,29 @@
 import React from "react";
+import myRes from "../../images/AMcIntire_Res_1.1.pdf";
 
 function Contact() {
   return (
-    <div class={{ container: 100 }} style={{padding: 20, paddingTop: 50 }}>
-      <h1>Actually the Contact Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div class={{ container: 100 }} style={{padding: 20, paddingTop: 20 }}>
+    <div class="container" style={{marginBottom: 20, padding: 30}} width="100%">
+    <h2 style={{color: 'darkgrey'}}>Contact</h2>
+    <div class="container">
+    <hr style={{color: "skyblue"}}></hr>
+        <p><strong style={{color: "darkgrey"}}>Via email:</strong> mcintireaw [at] gmail.com</p>
+        <p><strong style={{color: "darkgrey"}}>or by phone:</strong> 503.XXX.XXXX.</p>
+        <p><strong style={{color: "darkgrey"}}>More information and project examples at:</strong></p>
+        <p> <a href="https://github.com/imAnonAmi" target="blank">GitHub</a></p>
+        <p> <a href="https://linkedin.com/in/andrew-mcintire" target="blank">LinkedIn</a></p>
+        <p><strong style={{color: "darkgrey"}}>Or review my resume</strong> <a href={myRes} target="blank" title="Andrew McIntire">here.</a> </p>
+        
+      
+      </div>
+     
+      
       <div id="footer">
 	<p id="name">Andrew McIntire</p>
 	<p id="copyright">&copy; 2020</p>
 </div>
+    </div>
     </div>
   );
 }

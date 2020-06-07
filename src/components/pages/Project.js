@@ -28,7 +28,7 @@ function Project() {
               <a href="https://the-moodle-app.herokuapp.com/"  target="blank"><img src={moodle} class="card-img-top" alt="Project 2"></img></a>
               <div class="card-body">
                 <h5 class="card-title" style={{color: "skyblue"}}><a href="https://the-moodle-app.herokuapp.com/"  target="blank">Mood Tracker</a></h5>
-                <p class="card-text">View repository <a href="https://github.com/imAnonAmi/Project-2"  target="blank">here  </a> &bull;  Deployed <a href="https://the-moodle-app.herokuapp.com/" target="blank">here</a></p>
+                <p class="card-text">Repository <a href="https://github.com/imAnonAmi/Project-2"  target="blank">here  </a> &bull;  Deployed <a href="https://the-moodle-app.herokuapp.com/" target="blank">here</a></p>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ function Project() {
               <a href="https://tranquil-beyond-08862.herokuapp.com/"  target="blank"><img src={burger} class="card-img-top" alt="burger tracker"></img></a>
               <div class="card-body">
                 <h5 class="card-title" style={{color: "skyblue"}}><a href="https://tranquil-beyond-08862.herokuapp.com/"  target="blank">Mouth Meat Madness!</a></h5>
-                <p class="card-text">View repository <a href="https://github.com/imAnonAmi/burger" target="blank">here  </a> &bull;  Deployed <a href="https://tranquil-beyond-08862.herokuapp.com/" target="blank">here</a></p> 
+                <p class="card-text">Repository <a href="https://github.com/imAnonAmi/burger" target="blank">here  </a> &bull;  Deployed <a href="https://tranquil-beyond-08862.herokuapp.com/" target="blank">here</a></p> 
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@ function Project() {
               <a href="https://github.com/imAnonAmi/Unit-17-Homework"  target="blank"><img src={fitTrack} class="card-img-top" alt="Fitness Tracker"></img></a>
               <div class="card-body">
                 <h5 class="card-title" style={{color: "skyblue"}} ><a href="https://github.com/imAnonAmi/Unit-17-Homework"  target="blank">Simple Fitness Tracker</a></h5>
-                <p class="card-text">View repository <a href="https://github.com/imAnonAmi/Unit-17-Homework" target="blank">here  </a> &bull;  Deployed <a href="https://murmuring-island-18748.herokuapp.com/?id=5ec0594e846b000017f48a35" target="blank">here</a></p>
+                <p class="card-text">Repository <a href="https://github.com/imAnonAmi/Unit-17-Homework" target="blank">here  </a> &bull;  Deployed <a href="https://murmuring-island-18748.herokuapp.com/?id=5ec0594e846b000017f48a35" target="blank">here</a></p>
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@ function Project() {
               <a href="https://imanonami.github.io/Daily-Task-List/"  target="blank"><img src={dayplan} class="card-img-top" alt="Daily Task List"></img></a>
               <div class="card-body">
                 <h5 class="card-title" style={{color: "skyblue"}}><a href="https://imanonami.github.io/Daily-Task-List/"  target="blank">A Simple Daily Planner</a></h5>
-                <p class="card-text">View repository <a href="https://github.com/imAnonAmi/Daily-Task-List/"  target="blank">here  </a> &bull;  Deployed <a href="https://imanonami.github.io/Homework_05/" target="blank">here</a></p>
+                <p class="card-text">Repository <a href="https://github.com/imAnonAmi/Daily-Task-List/"  target="blank">here  </a> &bull;  Deployed <a href="https://imanonami.github.io/Homework_05/" target="blank">here</a></p>
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ function Project() {
               <a href="https://github.com/imAnonAmi/employee-directory"  target="blank"><img src={et3} class="card-img-top" alt="Coding Test"></img></a>
               <div class="card-body">
                 <h5 class="card-title" style={{color: "skyblue"}}><a href="https://github.com/imAnonAmi/employee-directory"  target="blank">Employee Directory</a></h5>
-                <p class="card-text">View repository <a href="https://github.com/imAnonAmi/employee-directory" target="blank">here  </a> &bull;  Deployed <a href="https://random-employee-directory.herokuapp.com/" target="blank">here</a></p> 
+                <p class="card-text">Repository <a href="https://github.com/imAnonAmi/employee-directory" target="blank">here  </a> &bull;  Deployed <a href="https://random-employee-directory.herokuapp.com/" target="blank">here</a></p> 
               </div>
             </div>
           </div>
