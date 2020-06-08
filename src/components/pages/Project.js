@@ -12,7 +12,7 @@ function Project() {
   return (
     <div class={{ container: 100 }} style={{padding: 20, paddingTop: 20 }}>
     <div class="container" style={{marginBottom: 20, padding: 30}} width="100%">
-    <h2 style={{color: 'darkgrey'}}>Projects</h2>
+    <h2 style={{color: '#668eb9', marginBottom:20}}>Projects</h2>
       <div class="row row-cols-1 row-cols-md-3">
           <div class="col mb-4">
             <div class="card h-100">

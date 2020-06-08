@@ -13,12 +13,7 @@
 	#footer p#copyright {
 		font-size: 12px; float: right; margin: 0 5px 0 0; color: white;
 	}
-		#footer a {
-		color: #a12121; text-decoration: none;
-	}
-		#footer a:hover {
-			color: #671111;
-	};
+;
 
 	.backgroundImage {
 		width: 33%;
@@ -32,13 +27,13 @@
 	  }
 
 	body {
-		background:skyblue;
+		background:#73CFF8;
 	}
 	.container {
 		background-color: ivory;
 	}
 	.rescontainer {
-		background-color: ivory;
+		background-color: #FFE2D2;
 		text-align: center;
 	}
 	@media only screen and (max-width: 640px) {
@@ -47,10 +42,8 @@
 			float: none;
 			clear: both;
 			width: 100%;
-			padding-left: 25px;
-			padding-right: 25px;
-			padding-bottom: 10px;
-			padding-top: 5px;
+			margin-right: 15px;
+			
 			
 		}
 		.container-fluid {
@@ -73,5 +66,13 @@
 		.navbar-nav {
 			flex-direction: row;
 		}}
-
+		h1, h2, h3, h4, h5 {
+			
+			font-family: 'Roboto', sans-serif;
+			color: #668EB9;
+		}
+		p {
+			font-family: 'Open Sans', sans-serif;
+			color: #646F6F;
+		}
 	
